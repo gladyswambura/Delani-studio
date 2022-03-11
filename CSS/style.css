@@ -1,0 +1,24 @@
+body * {
+    font-family: Helvetica;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.section1 {
+    width: 100%;
+    background-image: url("../Assets/Backgrounds/backgrnd1.jpg");
+    /* background-size: cover; */
+    height: 620px;
+    margin: 0;
+}
+
+.section1-notes {
+    position: relative;
+    padding-top: 14%;
+    color: white;
+}
+
+#delani-logo {
+    padding: 5px;
+    background-color: black;
+}
