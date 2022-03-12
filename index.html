@@ -7,151 +7,150 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
-    <script src="./JS/jQuery.js"></script>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./JS/script.js"></script>
     <title>DELANI STUDIO</title>
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
 
         <!-- section one -->
         <div class="section1">
             <div class="section1-notes">
-        <img id="delani-logo" src="/Assets/logo/Delani-logo.png" alt="delani-logo" width="200px" height="200px">
-        <h1>WELCOME <br>TO DELANI STUDIO</h1>
-        <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-        <img src="./Assets/mouse-click/mouse_click.png" alt="mouse-click">
-        </div>
+                <img id="delani-logo" src="./assets/logo/Delani-logo.png" alt="delani-logo" width="200px"
+                    height="200px">
+                <h1>WELCOME <br>TO DELANI STUDIO</h1>
+                <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+                <img src="./assets/mouse-click/mouse_click.png" class="mouse-click" alt="mouse-click">
+            </div>
         </div>
 
 
-         <!-- section two -->
+        <!-- section two -->
         <div id="about-us">
-            <h2>ABOUT US</h2>
-            <p>When you work with us, you are part of a team of committed collaborators.
-                All aspects of our software development process are integrated, interactive and agile.</p>
-            <p>Our approach unifies design, development and product management to create exceptional products.</p>
-            <p>We start each project by understanding your business goals, the user's needs and the product
-                requirements</p>
-            <p>Then we help translate them into effective and elegant solutions.</p>
-        </div>
-
-         <!-- section three -->
-        <div id="services">
-            <h2>SERVICES</h2>
-            <p>Before we sign a contract or write a line of code our team will
-                spend the necessary time needed to understand your product vision
-            </p>
-            <p>
-                The outcome of this scoping session is proposal or high-level
-                statement of work.
-            </p>
-            <p>
-                based on your requirements, we can provide a complete offering or
-                just the pieces you need.
-            </p>
+            <div class="about-us">
+                <h2>ABOUT US</h2>
+                <p>When you work with us, you are part of a team of committed collaborators.
+                    All aspects of our software development process are integrated, interactive <br> and agile.</p>
+                <p>Our approach unifies design, development and product management to create exceptional products.</p>
+                <p>We start each project by understanding your business goals, the user's needs and the product
+                    requirements</p>
+                <p>Then we help translate them into effective and elegant solutions.</p>
+            </div>
         </div>
 
         <!-- section three -->
-        <div id="what-we-do" class="row d-flex">
-            
-            <!-- what we do heading -->
-            <div id="heading1">
-                <h3>WHAT WE DO</h3>
+        <div id="services">
+            <div class="services-notes">
+                <h2>SERVICES</h2>
+                <p>Before we sign a contract or write a line of code our team will
+                    spend the necessary time needed to understand your product vision
+                </p>
+                <p>
+                    The outcome of this scoping session is proposal or high-level
+                    statement of work.
+                </p>
+                <p>
+                    based on your requirements, we can provide a complete offering or
+                    just the pieces you need.
+                </p>
             </div>
-
-            <!-- Design show -->
-            <div class="what-we-do-show">
-                <span id="design-show" class="col-md-4">
-                    <div class="design">
-                        <img src="./Assets/service-icons/design_icon.png" alt="design" />
-                        <h6 class="image-name">DESIGN</h6>
-                    </div>
-                </span>
-            </div>
-
-            <!-- design hide -->
-            <div class="what-we-do-hide">
-                <span id="design-hide" class="col-md-4">
-                    <h6>DESIGN</h6>
-                    <p class="design">
-                        Our design practice offers a full range of services including
-                        brand strategy, interaction and visual design and user
-                        experience testing.
-                    </p>
-                    <p class="design">
-                        Throughout your project, our designers create and implement
-                        visual design and workflows, solicit user feedback and work with
-                        you to make sure what gets built is what is needed.
-                    </p>
-                </span>
-            </div>
-
-            <!-- Development show -->
-            <div class="what-we-do-show">
-                <span id="development-show" class="col-md-4">
-                    <div class="design">
-                        <img src="./Assets/service-icons/dev_icon.png" alt="development" />
-                        <h6 class="image-name">DEVELOPMENT</h6>
-                    </div>
-                </span>
-            </div>
-
-            <!-- development hide -->
-            <div class="what-we-do-hide">
-                <span id="development-hide" class="col-md-4">
-                    <h6>DEVELOPMENT</h6>
-                    <p class="development">
-                        All engineers are fluent in the latest enterprise, mobile and
-                        web development technologies.
-                    </p>
-                    <p class="development">
-                       They collaborate with your team to write, and improve code on a
-                       daily basis, using proven practices such as test-driven
-                       development and pair programming.
-                    </p>
-                </span>
-            </div>
-
-             <!-- Product management show -->
-             <div class="what-we-do-show">
-                 <span id="Product-management-show" class="col-md-4">
-                     <div class="design">
-                         <img src="./Assets/service-icons/product_icon.png" alt="Product management" />
-                         <h6 class="image-name">Product-management</h6>
-                     </div>
-                 </span>
-             </div>
-
-             <!-- Product management hide -->
-             <div class="what-we-do-hide">
-                 <span id="Product-management-hide" class="col-md-4">
-                     <h6>Product-management</h6>
-                     <p class="development">
-                         All engineers are fluent in the latest enterprise, mobile and
-                         web development technologies.
-                     </p>
-                     <p class="development">
-                         They collaborate with your team to write, and improve code on a
-                         daily basis, using proven practices such as test-driven
-                         development and pair programming.
-                     </p>
-                 </span>
-             </div>
-            
         </div>
 
-    </div>
-    </div>
+        <!-- section three -->
+        <div id="what-we-do">
+            <div class="row d-flex">
 
+                <!-- what we do heading -->
+                <div id="heading1">
+                    <h3>WHAT WE DO</h3>
+                </div>
 
-    </div>
+                <div id="flex-all">
+                    <!-- Design show -->
+                    <div class="what-we-do-show">
+                        <span id="design-show" class="col-md-4">
+                            <div class="design">
+                                <img src="./assets/services-icon/design_icon.png" alt="design" />
+                                <h6 class="image-name">DESIGN</h6>
+                            </div>
+                        </span>
+                    </div>
 
+                    <!-- design hide -->
+                    <div class="what-we-do-hide">
+                        <span id="design-hide" class="col-md-4">
+                            <h6>DESIGN</h6>
+                            <p class="design">
+                                Our design practice offers a full range of services including
+                                brand strategy, interaction and <br> visual design and user
+                                experience testing.
+                            </p>
+                            <p class="design">
+                                Throughout your project, our designers create and implement
+                                visual design and workflows, <br> solicit user feedback and work with
+                                you to make sure what gets built is what is needed.
+                            </p>
+                        </span>
+                    </div>
 
+                    <!-- Development show -->
+                    <div class="what-we-do-show">
+                        <span id="development-show" class="col-md-4">
+                            <div class="design">
+                                <img src="./assets/services-icon/dev_icon.png" alt="development" />
+                                <h6 class="image-name">DEVELOPMENT</h6>
+                            </div>
+                        </span>
+                    </div>
 
+                    <!-- development hide -->
+                    <div class="what-we-do-hide">
+                        <span id="development-hide" class="col-md-4">
+                            <h6>DEVELOPMENT</h6>
+                            <p class="development">
+                                All engineers are fluent in the latest enterprise, mobile and
+                                web development technologies.
+                            </p>
+                            <p class="development">
+                                They collaborate with your team to write, and improve code on a
+                                daily basis, using provenbr <br> practices such as test-driven
+                                development and pair programming.
+                            </p>
+                        </span>
+                    </div>
 
-    <script src="./JS/script.js"></script>
+                    <!-- Product management show -->
+                    <div class="what-we-do-show">
+                        <span id="Product-management-show" class="col-md-4">
+                            <div class="design">
+                                <img src="./assets/services-icon/product_icon.png" alt="Product management" />
+                                <h6 class="image-name">Product-management</h6>
+                            </div>
+                        </span>
+                    </div>
+
+                    <!-- Product management hide -->
+                    <div class="what-we-do-hide">
+                        <span id="Product-management-hide" class="col-md-4">
+                            <h6>Product-management</h6>
+                            <p class="development">
+                                Planning and development is iterative. Because we are constantly coding and testing, the
+                                <br>
+                                products we build are always ready to go live
+                            </p>
+                            <p class="development">
+                                This iterative process allows for changes as business requirements evolve.
+                            </p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
 </body>
-
 </html>

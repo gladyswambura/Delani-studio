@@ -6,19 +6,54 @@ body * {
 
 .section1 {
     width: 100%;
-    background-image: url("../Assets/Backgrounds/backgrnd1.jpg");
-    /* background-size: cover; */
-    height: 620px;
+    background-image: url("../assets/backgrounds/backgrnd1.jpg");
+    background-size: cover;
+    height: 900px;
     margin: 0;
 }
 
 .section1-notes {
     position: relative;
-    padding-top: 14%;
+    padding-top: 15%;
     color: white;
 }
 
+.section1 .mouse-click {
+    position: relative;
+    padding-top: 13%;
+}
 #delani-logo {
-    padding: 5px;
-    background-color: black;
+    padding: 3px;
+}
+
+#about-us {
+    margin-left: 35px;
+    margin-right: 35px;
+    padding-top: 50px;
+}
+#about-us p {
+    font-size: medium;
+}
+#services {
+    width: 100%;
+    background-image: url("../assets/backgrounds/backgrnd2.jpg");
+    background-size: cover;
+    height: 400px;
+    margin: 0;
+}
+.services-notes {
+    color: white;
+    padding-top: 8%;
+    padding-bottom: 3.5%;
+    font-size: xx-small;
+}
+
+.services-notes h2 {
+    font-weight: bold;
+}
+#what-we-do #flex-all {
+    display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 100%;
 }
