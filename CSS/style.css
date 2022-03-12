@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 body * {
     /* font-family: Helvetica; */
     font-family: 'roboto';
@@ -24,6 +25,7 @@ body * {
     position: relative;
     padding-top: 13%;
 }
+
 #delani-logo {
     padding: 3px;
 }
@@ -33,9 +35,11 @@ body * {
     margin-right: 35px;
     padding-top: 50px;
 }
+
 #about-us p {
     font-size: medium;
 }
+
 #services {
     width: 100%;
     background-image: url("../assets/backgrounds/backgrnd2.jpg");
@@ -43,6 +47,7 @@ body * {
     height: 400px;
     margin-top: 4%;
 }
+
 .services-notes {
     color: white;
     padding-top: 8%;
@@ -53,21 +58,29 @@ body * {
 .services-notes h2 {
     font-weight: bold;
 }
+
 #what-we-do {
     padding-top: 3%;
 }
 
 
 /* Hide***** */
-#design-hide, #development-hide, #Product-management-hide {
+#design-hide {
     display: none;
 }
+#development-hide {
+    display: none;
+}
+#Product-management-hide {
+    display: none;
+}
+
 #what-we-do #flex-all {
     padding-top: 1%;
     display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .what-we-do-hide {
@@ -75,32 +88,38 @@ body * {
     font-size: 15px;
     justify-content: space-evenly;
 }
-#portfolio img{
+
+#portfolio img {
     display: inline;
     height: 250px;
     width: 250px;
     margin-left: 0.8%;
 }
+
 #portfolio {
     padding-top: 3%;
 }
+
 #contacts {
     background-image: url(../assets/backgrounds/backgrnd3.jpg);
     background-size: cover;
     margin-top: 4%;
     min-width: 100%;
-    height: 610px;
+    height: 600px;
 }
+
 #contact {
-    padding-top: 80px;
+    padding-top: 60px;
     width: 100%;
     display: block;
     color: white;
     font-weight: bold;
 }
+
 #social-icons {
     margin-top: 1.2%;
 }
+
 textarea {
     text-align: start;
     color: white;
@@ -111,21 +130,23 @@ textarea {
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid white;
 }
-::placeholder{
-        color: white;
-        opacity: 1;
-        text-align: start;
+
+::placeholder {
+    color: white;
+    opacity: 1;
+    text-align: start;
 }
+
 input {
-     text-align: start;
-     color: white;
+    margin: 0.35%;
+    text-align: start;
+    color: white;
     width: 25%;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid white;
 }
+
 #delani-name {
     padding-top: 2%;
     font-size: small;
 }
-
-

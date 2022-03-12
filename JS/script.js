@@ -1,4 +1,3 @@
-// user interface
 $(document).ready(function() {
 
     // design
@@ -30,10 +29,5 @@ $("#Product-management-hide").click(function () {
     $("#Product-management-hide").hide();
     $("#Product-management-show").toggle();
 });
-
-
-
-
-
 
 });
