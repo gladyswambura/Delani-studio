@@ -63,19 +63,16 @@ body * {
     display: none;
 }
 #what-we-do #flex-all {
-    align-items: center;
-    padding-top: 2%;
+    padding-top: 1%;
     display: flex;
       flex-direction: row;
       justify-content: space-evenly;
       width: 100%;
 }
-.what-we-do-hide h6{
-    font-size: bold;
-}
+
 .what-we-do-hide {
     display: block;
-    font-size: small;
+    font-size: 15px;
     justify-content: space-evenly;
 }
 #portfolio img{
@@ -83,6 +80,9 @@ body * {
     height: 250px;
     width: 250px;
     margin-left: 0.8%;
+}
+#portfolio {
+    padding-top: 3%;
 }
 #contacts {
     background-image: url(../assets/backgrounds/backgrnd3.jpg);
@@ -123,4 +123,9 @@ input {
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid white;
 }
+#delani-name {
+    padding-top: 2%;
+    font-size: small;
+}
+
 
