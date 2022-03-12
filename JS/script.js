@@ -22,7 +22,14 @@ $("#development-hide").click(function () {
 });
 
 // product-management
-
+$("#Product-management-show").click(function () {
+    $("#Product-management-show").hide();
+    $("#Product-management-hide").toggle();
+});
+$("#Product-management-hide").click(function () {
+    $("#Product-management-hide").hide();
+    $("#Product-management-show").toggle();
+});
 
 
 

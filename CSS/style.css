@@ -63,17 +63,26 @@ body * {
     display: none;
 }
 #what-we-do #flex-all {
+    align-items: center;
     padding-top: 2%;
     display: flex;
       flex-direction: row;
       justify-content: space-evenly;
       width: 100%;
 }
+.what-we-do-hide h6{
+    font-size: bold;
+}
+.what-we-do-hide {
+    display: block;
+    font-size: small;
+    justify-content: space-evenly;
+}
 #portfolio img{
     display: inline;
     height: 250px;
     width: 250px;
-    margin: 0.8%;
+    margin-left: 0.8%;
 }
 #contacts {
     background-image: url(../assets/backgrounds/backgrnd3.jpg);
