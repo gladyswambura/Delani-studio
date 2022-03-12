@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 body * {
-    font-family: Helvetica;
+    /* font-family: Helvetica; */
+    font-family: 'roboto';
     line-height: 1.5;
     text-align: center;
 }
@@ -39,21 +41,77 @@ body * {
     background-image: url("../assets/backgrounds/backgrnd2.jpg");
     background-size: cover;
     height: 400px;
-    margin: 0;
+    margin-top: 4%;
 }
 .services-notes {
     color: white;
     padding-top: 8%;
-    padding-bottom: 3.5%;
-    font-size: xx-small;
+    /* padding-bottom: 3.5%; */
+    font-size: medium;
 }
 
 .services-notes h2 {
     font-weight: bold;
 }
+#what-we-do {
+    padding-top: 3%;
+}
+
+
+/* Hide***** */
+#design-hide, #development-hide, #Product-management-hide {
+    display: none;
+}
 #what-we-do #flex-all {
+    padding-top: 2%;
     display: flex;
       flex-direction: row;
       justify-content: space-evenly;
       width: 100%;
 }
+#portfolio img{
+    display: inline;
+    height: 250px;
+    width: 250px;
+    margin: 0.8%;
+}
+#contacts {
+    background-image: url(../assets/backgrounds/backgrnd3.jpg);
+    background-size: cover;
+    margin-top: 4%;
+    min-width: 100%;
+    height: 610px;
+}
+#contact {
+    padding-top: 80px;
+    width: 100%;
+    display: block;
+    color: white;
+    font-weight: bold;
+}
+#social-icons {
+    margin-top: 1.2%;
+}
+textarea {
+    text-align: start;
+    color: white;
+    margin-left: 15px;
+    display: inline;
+    width: 49%;
+    margin-top: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+}
+::placeholder{
+        color: white;
+        opacity: 1;
+        text-align: start;
+}
+input {
+     text-align: start;
+     color: white;
+    width: 25%;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+}
+
