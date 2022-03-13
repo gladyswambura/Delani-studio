@@ -31,3 +31,13 @@ $("#Product-management-hide").click(function () {
 });
 
 });
+
+// form
+$(document).ready(function () {
+    $("form#contact-form").submit(function () {
+        var personName = $("#person-name").val();
+            var userMail = $("#person-email").val();
+                var userMessage = $("#user-message").val();
+
+
+
