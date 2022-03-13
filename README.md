@@ -2,7 +2,7 @@
 
 ### This is a studio website that showcases its services to its clients
 
-![alt text](./assets/backgrounds/backgrnd1.jpg)
+![alt text](./assets/readme.jpeg)
 
 ## Table of Contents
 
