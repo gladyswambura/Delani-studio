@@ -49,6 +49,4 @@ $(document).ready(function () {
 let btn = document.getElementById('submit');
 btn.addEventListener('click', (event) => {
     event.preventDefault()
-
-    // submitQuery();
 })

@@ -99,6 +99,9 @@ body * {
 #portfolio {
     padding-top: 3%;
 }
+#portfolio img:hover,.image-text:hover {
+    opacity: 0.4;
+}
 
 #contacts {
     background-image: url(../assets/backgrounds/backgrnd3.jpg);
