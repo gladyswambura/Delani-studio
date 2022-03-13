@@ -4,8 +4,6 @@
 
 ![alt text](./assets/backgrounds/backgrnd1.jpg)
 
-![alt text](./assets/backgrounds/backgrnd2.jpg)
-
 ## Table of Contents
 
 + [Description](#description)
