@@ -50,3 +50,10 @@ let btn = document.getElementById('submit');
 btn.addEventListener('click', (event) => {
     event.preventDefault()
 })
+
+// hovering effect
+$(document).ready(function() {
+    $('#portfolio').mouseover(funtion() {
+        $(this).css("background-color", "yellow");
+    })
+})

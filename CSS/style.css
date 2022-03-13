@@ -94,14 +94,18 @@ body * {
     height: 250px;
     width: 250px;
     margin-left: 0.8%;
+    margin: 0.8%;
 }
 
 #portfolio {
     padding-top: 3%;
 }
-#portfolio img:hover,.image-text:hover {
+/* #portfolio img:hover{
     opacity: 0.4;
 }
+.image-text:hover{
+    opacity: 0.4;
+} */
 
 #contacts {
     background-image: url(../assets/backgrounds/backgrnd3.jpg);
