@@ -46,14 +46,70 @@ $(document).ready(function () {
     })
 })
 
-let btn = document.getElementById('submit');
-btn.addEventListener('click', (event) => {
-    event.preventDefault()
-})
+// portfolio
+$(document).ready(function () {
 
-// // hovering effect
-// $(document).ready(function() {
-//     $('#portfolio').mouseover(funtion() {
-//         $(this).css("background-color", "yellow");
-//     });
-// });
+    $("#p1").mouseover(function () {
+        $(".portfolio-1").show()
+    });
+    $("#p1").mouseout(function () {
+        $(".portfolio-1").hide()
+
+    });
+
+    $("#p2").mouseover(function () {
+        $(".portfolio-2").show()
+    });
+    $("#p2").mouseout(function () {
+        $(".portfolio-2").hide()
+
+    });
+
+    $("#p3").mouseover(function () {
+        $(".portfolio-3").show()
+    });
+    $("#p3").mouseout(function () {
+        $(".portfolio-3").hide()
+
+    });
+
+    $("#p4").mouseover(function () {
+        $(".portfolio-4").show()
+    });
+    $("#p4").mouseout(function () {
+        $(".portfolio-4").hide()
+
+    });
+
+    $("#p5").mouseover(function () {
+        $(".portfolio-5").show()
+    });
+    $("#p5").mouseout(function () {
+        $(".portfolio-5").hide()
+
+    });
+
+    $("#p6").mouseover(function () {
+        $(".portfolio-6").show()
+    });
+    $("#p6").mouseout(function () {
+        $(".portfolio-6").hide()
+
+    });
+
+    $("#p7").mouseover(function () {
+        $(".portfolio-7").show()
+    });
+    $("#p7").mouseout(function () {
+        $(".portfolio-7").hide()
+
+    });
+
+    $("#p8").mouseover(function () {
+        $(".portfolio-8").show()
+    });
+    $("#p8").mouseout(function () {
+        $(".portfolio-8").hide()
+
+    });
+});
